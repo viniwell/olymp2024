@@ -1,0 +1,1 @@
+print(''.join( word.capitalize() for word in input("Enter a number in underscore style to convert it into CamelCase >> ").split("_") ))
