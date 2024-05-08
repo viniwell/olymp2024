@@ -251,7 +251,6 @@ class DragRacing:
         
 
     def win(self, index):
-        print(f'Winner is {index}')
         self.winner=index
         if self._predicted_winner==index:
             self.score_received = 10*(1000-(self._cars[index-1].rect.centerx-self._cars[index%2].rect.centerx))
